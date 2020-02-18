@@ -26,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/micronlp/src/main/java/com/rcpit/g36fyp1920/micronlp/microNLP.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,6 +44,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Dragenox &lt;ishan.d.gupta@outlook.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -222,6 +227,14 @@
       <option name="presentableId" value="Default" />
       <updated>1582026065194</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changed message and added test function">
+      <created>1582028112086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582028112086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -251,11 +264,15 @@
       <window_info anchor="right" id="Palette&#9;" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed message and added test function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed message and added test function" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/micronlp/src/main/java/com/rcpit/g36fyp1920/micronlp/microNLP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
