@@ -42,7 +42,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private boolean checkDataBase() {
         SQLiteDatabase checkDB = null;
         try {
-            String myPath = DB_PATH + DB_NAME;
+            String myPath = DB_PATH;
             checkDB = SQLiteDatabase.openDatabase(myPath, null, SQLiteDatabase.OPEN_READONLY);
         } catch (SQLiteException e) {
             Log.e("SQLiteException:", e.toString());
