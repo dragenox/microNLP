@@ -1,6 +1,7 @@
 package com.rcpit.g36fyp1920.micronlp;
 
 import android.content.Context;
+import android.content.res.AssetManager;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
@@ -14,7 +15,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
-    private String DB_PATH = null;
+    private static String DB_PATH = "file:///android_asset/microNLP.db";
     private static String DB_NAME = "microNLP";
     private SQLiteDatabase myDataBase;
     private final Context myContext;
@@ -22,7 +23,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     DatabaseHelper(Context context) {
         super(context, DB_NAME, null, 10);
         this.myContext = context;
-        this.DB_PATH = context.getFilesDir().getPath() + context.getPackageName() + "/" + "databases/";
         Log.e("Path 1", DB_PATH);
     }
 
