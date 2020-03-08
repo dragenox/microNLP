@@ -2,23 +2,25 @@ package com.rcpit.g36fyp1920.micronlp;
 
 import android.content.Context;
 import android.database.Cursor;
-import android.database.SQLException;
 import android.widget.Toast;
 
 import java.io.IOException;
 
 public class microNLP {
-    private Context context;
-
-    public microNLP(Context context){
-        this.context = context;
-    }
-    public void test() {
+    public static void test(Context context) {
         Toast.makeText(context, "Library Configured", Toast.LENGTH_SHORT).show();
-        initDatabase();
+        initDatabase(context);
     }
 
-    private void initDatabase() {
+    public static String summary(String text) {
+        return text;
+    }
+
+    public static String sentiment(String text){
+        return text;
+    }
+
+    private static void initDatabase(Context context) {
         DatabaseHelper myDbHelper = new DatabaseHelper(context);
         try {
             myDbHelper.createDataBase();
@@ -39,9 +41,5 @@ public class microNLP {
                         Toast.LENGTH_LONG).show();
             } while (cursor.moveToNext());
         }
-    }
-
-    public String summary(String text) {
-        return text;
     }
 }
