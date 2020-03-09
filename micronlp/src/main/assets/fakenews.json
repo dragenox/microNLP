@@ -1,0 +1,21 @@
+{"fakenews":[
+  { "data":"Sad news after constable Rattan Lal, DCP Amit Sharma is also no more. Muslim riots Delhi.", 
+    "link":"https://www.altnews.in/fake-message-about-dcp-amit-sharmas-death-during-delhi-riots-goes-viral/",
+    "tags":"fake,misinformation",
+    "severity":"3"},
+
+  { "data":"Big announcement by Rata Tata Sahab: From now on Tata Group of companies not to recruit any of the JNU #Students. Those who can’t be faithful to the country how can we expect them to be faithful to the company.",
+    "link":"https://www.altnews.in/no-ratan-tata-has-not-announcement-that-jnu-students-will-not-be-recruited-by-tata-group/",
+    "tags":"fake,misinformation",
+    "severity":"2"},
+
+  { "data":"This is the horror being played on the streets of Delhi right now. Did you see the skull cap? They have turned this country into Syria, where Hindus are shit scared. My relatives living in Maujpur haven't stepped out of their home since 3 days.",
+    "link":"https://www.altnews.in/video-of-bus-driver-beaten-up-in-maharashtra-shared-with-communal-angle-amid-delhi-riots/",
+    "tags":"communal,violence",
+    "severity":"8"},
+  
+  { "data":"Is the cure for coronavirus hidden in alcohol or weed?",
+    "link":"https://www.altnews.in/coronavirus-screenshots-from-aaj-taks-fact-check-shared-with-misleading-claim/",
+    "tags":"misinformation",
+    "severity":"1"}
+]}
